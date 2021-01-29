@@ -1,0 +1,38 @@
+body {
+    background-color: #14213d;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    text-align: center;
+    width: 70%;
+    height: 700px;
+    background-color: #fca311;
+    padding: 5%;
+    color: #e5e5e5;
+    clip-path: circle(10% at 10% 30%);
+    animation: move 8s alternate infinite;
+}
+
+p {
+    font-size: 30px;
+}
+
+@keyframes move {
+    50% {
+        clip-path: circle(15% at 50% 50%);
+    }
+    100% {
+        clip-path: circle(10% at 85% 40%);
+    }
+}  
+.container1{
+    text-align: center;
+    width: 70%;
+    height: 700px;
+    background-color: #14213d;
+    padding: 5%;
+    margin: 0 auto;
+}

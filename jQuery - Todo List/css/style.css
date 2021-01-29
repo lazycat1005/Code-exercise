@@ -1,0 +1,42 @@
+body {
+    background-color: #8B8C89;
+    color: #E7ECEF;
+    padding-top: 50px;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #274C77;
+}
+
+#input {
+    padding: 5px;
+    width: 600px;
+    border-radius: 5px;
+    border: 0px;
+    margin-bottom: 50px;
+}
+
+#add,
+.delete {
+    background-color: #274C77;
+    border: 0px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    color: #E7ECEF;
+
+}
+
+.toDOs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px 300px;
+
+}
